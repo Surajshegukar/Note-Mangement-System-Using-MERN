@@ -1,11 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component, useEffect } from 'react'
+import { useContext } from 'react'
+import noteContext from '../context/notes/noteContext'
 
-export default class About extends Component {
-  render() {
-    return (
-      <div>
-        This is About
-      </div>
-    )
-  }
+const About = ()=>{
+
+  return(
+    <div>
+      this is About Page
+    </div>
+  )
 }
+export default About

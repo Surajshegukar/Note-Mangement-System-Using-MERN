@@ -1,9 +1,11 @@
 import React from 'react'
 
+import AddNote from "./AddNote";
+
 const Home = () => {
   return (
     <div>
-      This is Home
+      <AddNote/>
     </div>
   )
 }
